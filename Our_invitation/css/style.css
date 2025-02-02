@@ -94,6 +94,16 @@ a:focus {
   text-decoration: none;
 }
 
+.initial-phrase {
+  font-family: "Oooh Baby", serif;
+  font-size: 20px;
+}
+
+.font-georgia { 
+	font-family: Georgia,Times,Times New Roman,serif;
+  font-size: 16px; 
+}
+
 /*--------------------------------------------------------------
 #0.2    Global Elements
 --------------------------------------------------------------*/
@@ -1797,6 +1807,7 @@ a:focus {
   margin: 0 0 0.4em;
   position: relative;
   z-index: 10;
+  text-transform: none !important;
 }
 
 @media (max-width: 1199px) {

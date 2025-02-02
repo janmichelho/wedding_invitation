@@ -701,6 +701,7 @@ a {
   border-top:0px;
   border-bottom: 0px;
   font-weight: 600;
+  text-transform: none;
 }
 
 .slide-item {
@@ -2127,7 +2128,10 @@ iframe {
     padding: 0 10%;
   }
   .hero .slide-item.slide1 {
-    background-position: right top !important;
+    background-position: center top !important;
+    background-size: cover;
+    vertical-align: middle;
+    width: 100%;
   }
   .hero .wedding-announcement .couple-name-merried-text {
     vertical-align: middle;
@@ -2313,7 +2317,9 @@ iframe {
     font-size: 1.5em;
   }
   .hero .slide-item.slide1 {
-    background-position: right top !important;
+    background-position: center top !important;
+    vertical-align: middle;
+    width: 100%;
   }
   .hero .wedding-announcement .couple-name-merried-text h2 {
     font-size: 3em;
