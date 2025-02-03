@@ -393,8 +393,8 @@
             var $this = $(this).html(event.strftime(''
             + '<div class="box dias"><div>%D</div> <span>Días</span> </div>'
             + '<div class="box horas"><div>%H</div> <span>Horas</span> </div>'
-            + '<div class="box minutos"><div>%M</div> <span>Mins</span> </div>'
-            + '<div class="box segundos"><div>%S</div> <span>Segs</span> </div>'));
+            + '<div class="box minutos"><div>%M</div> <span>Minutos</span> </div>'
+            + '<div class="box segundos"><div>%S</div> <span>Segundos</span> </div>'));
         });
     }
 
