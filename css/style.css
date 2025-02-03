@@ -2631,6 +2631,7 @@ a:focus {
 
 .story-section .story-timeline > .row {
   position: relative;
+  vertical-align: middle;
 }
 
 .story-section .story-timeline > .row .horizontal-line {
