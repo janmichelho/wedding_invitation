@@ -500,6 +500,21 @@ a {
     background-size: 80%;
     animation: gradient 2.5s linear infinite;
     -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: rgb(59 59 59 / 50%);
+  }
+
+  .animate-gradient-text-cursive {
+    position: relative;
+    overflow: hidden;
+    font-style: italic;
+    text-transform: none;
+    background: linear-gradient(90deg, #000000, #595959, #000000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: gradient 2.5s linear infinite;
+    -webkit-background-clip: text;
+            background-clip: text;
     -webkit-text-fill-color: rgb(59 59 59 / 50%);
   }
 
@@ -2129,7 +2144,6 @@ iframe {
   }
   .hero .slide-item.slide1 {
     background-position: center top !important;
-    background-size: cover;
     vertical-align: middle;
     width: 100%;
   }
