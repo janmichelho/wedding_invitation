@@ -2355,6 +2355,14 @@ iframe {
   .count-down-clock #clock div {
     font-size: 1.2em;
   }
+
+  @media (max-width: 480px) {
+    .count-down-clock #clock div {
+      font-size: 15px;
+      font-size: 0.8rem;
+    }
+  }
+
   .count-down-clock #clock span {
     margin-top: 5px;
     font-size: 0.7em;
