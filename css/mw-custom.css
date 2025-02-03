@@ -2012,7 +2012,7 @@ iframe {
 .welcome-text {
   font-family: var(--body-font-family);
   font-size: 2em;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 .welcome-text-p {
