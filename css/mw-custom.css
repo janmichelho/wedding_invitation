@@ -142,7 +142,7 @@ body {
 
 @media (max-width: 991px) {
   .site-header .container {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
     flex-wrap: nowrap;
 }
