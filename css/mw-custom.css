@@ -728,8 +728,9 @@ a {
 @media (min-width:1025px){
 
   .slide-item {
-      background-position: center !important;
-      background-image: url('../images/slider/slider1.jpg') !important;
+      background-position: top center !important;
+      background-image: url('../images/marco2.jpg') !important;
+      opacity: 0.5;
   }
   
   .slide-item2 {
@@ -741,8 +742,10 @@ a {
   
   .slide-item {
     width: 100vw !important;
+    /*background-size: auto;*/
     background-position: top center !important;
-    background-image: url('../images/slider/slider1.jpg') !important;
+    background-image: url('../images/marco2.jpg') !important;
+    opacity: 0.5;
   }
   
   .slide-item2 {
@@ -758,8 +761,9 @@ a {
 
   .slide-item {
       width: 100vw !important;
-    background-position: center !important;
-      background-image: url('../images/slider/slider1.jpg') !important;
+    background-position: top center !important;
+      background-image: url('../images/marco2.jpg') !important;
+      opacity: 0.5;
   }
   
   .slide-item2 {
@@ -1019,6 +1023,10 @@ background-size: inherit;
 
 .events-section .event + .event {
   margin-top: 0px;
+}
+
+.event .img-holder {
+  vertical-align: middle;
 }
 
 .event .img-holder img {
