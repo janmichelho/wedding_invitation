@@ -3,7 +3,7 @@
   -------------------------------------------*/
 try {
   var music;
-  var audioIsPlaying = false;
+  var audioIsPlaying = true;
   
   window.addEventListener('load', function() {
     music = new Audio('music/musicfile.mp3');
