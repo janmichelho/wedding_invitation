@@ -124,6 +124,10 @@ a:focus {
   padding: 120px 0;
 }
 
+.navbar-title {
+  font-size: 24px;
+}
+
 @media (max-width: 1199px) {
   .section-padding {
     padding: 100px 0;
