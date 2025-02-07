@@ -1,3 +1,17 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+@layer base {
+    body {
+      @apply font-baskervville-serif text-[#303030] w-full;
+    }
+
+    html {
+      @apply scroll-smooth
+    }
+
+    section {
+      @apply w-full
+    }
+  }
