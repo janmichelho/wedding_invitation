@@ -3,7 +3,7 @@
 	import Postal from "./postal.svelte";
 </script>
 
-<section class="my-6 flex w-full flex-col items-center" id="galery">
+<section class="my-6 flex w-full flex-col items-center" id="galeria">
 	<ul
 		class="flex w-fit justify-center gap-16 flex-wrap p-16"
 	>

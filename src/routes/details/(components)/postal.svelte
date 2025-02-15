@@ -9,6 +9,8 @@
 		<img
 			{src}
 			alt="Postal"
+			loading="lazy"
+			decoding="async"
 			class="h-auto w-52 border grayscale transition-all duration-300 hover:grayscale-0 focus:grayscale-0"
 		/>
 		<p class="text-xl">{caption}</p>

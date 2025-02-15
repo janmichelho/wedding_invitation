@@ -28,21 +28,21 @@
     })
 </script>
 
-<div class="flex items-center justify-center gap-2 lg:gap-4 font-baskervville-serif mt-4">
+<div class="flex items-center justify-center gap-4 lg:gap-8 font-baskervville-serif mt-4 font-medium">
 	<div class="flex flex-col items-center justify-center gap-2">
-		<span class=" text-xl lg:text-2xl">{days}</span>
-		<p class="py-2 px-3 lg:px-4 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm font-medium">DÍAS</p>
+		<span class="text-xl lg:text-2xl">{days}</span>
+		<p class="py-2 px-4 lg:px-10 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm">DÍAS</p>
 	</div>
 	<div class="flex flex-col items-center justify-center gap-2">
-		<span class=" text-xl lg:text-2xl">{hours}</span>
-		<p class="py-2 px-3 lg:px-4 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm font-medium">HORAS</p>
+		<span class="text-xl lg:text-2xl">{hours}</span>
+		<p class="py-2 px-4 lg:px-10 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm">HORAS</p>
 	</div>
 	<div class="flex flex-col items-center justify-center gap-2">
-		<span class=" text-xl lg:text-2xl">{minutes}</span>
-		<p class="py-2 px-3 lg:px-4 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm font-medium">MINS</p>
+		<span class="text-xl lg:text-2xl">{minutes}</span>
+		<p class="py-2 px-4 lg:px-10 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm">MINS</p>
 	</div>
 	<div class="flex flex-col items-center justify-center gap-2">
-		<span class=" text-xl lg:text-2xl">{seconds}</span>
-		<p class="py-2 px-3 lg:px-4 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm font-medium">SEGS</p>
+		<span class="text-xl lg:text-2xl">{seconds}</span>
+		<p class="py-2 px-4 lg:px-10 text-center bg-[#d3cac3] rounded-md text-xs lg:text-sm">SEGS</p>
 	</div>
 </div>

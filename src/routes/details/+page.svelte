@@ -6,14 +6,27 @@
 	import Header from './(components)/header.svelte';
 	import Info from './(components)/info.svelte';
 	import Itinerario from './(components)/itinerario.svelte';
+	import Regalos from './(components)/regalos.svelte';
 </script>
 
 <main class="relative w-full">
-	<div class="grid h-svh grid-cols-1 grid-rows-3" id="principal">
-		<img src="/images/marco.avif" alt="" class="w-fit self-start justify-self-center" />
-		<div class="flex flex-col items-center gap-4 self-center">
-			<h1 class="font-baskervville-serif text-5xl text-[#a2998a]">Sara & Jan</h1>
-			<h2 class="font-baskervville-serif text-2xl font-semibold">5 de julio de 2025</h2>
+	<div class="flex flex-col justify-center items-center h-svh relative" id="principal" >
+		<picture class="absolute top-0 left-0 w-full h-full -z-10 opacity-50">
+			<source
+				sizes="100vw"
+				srcset="
+			/images/marco2-100.avif 1920w,
+			/images/marco2-50.avif 1280w,
+			/images/marco2-30.avif	320w
+			"
+				type="image/avif"
+			/>
+			<img class="w-full h-full object-cover object-top" alt="Marco decorativo"/>
+		</picture>
+		<!-- <img src="/images/marco.avif" alt="" class="w-fit self-start justify-self-center" /> -->
+		<div class="flex flex-col items-center gap-6 self-center">
+			<h1 class="font-baskervville-serif text-6xl text-[#a2998a] font-bold">Sara & Jan</h1>
+			<h2 class="font-baskervville-serif text-3xl font-semibold">5 de julio de 2025</h2>
 			<Contador />
 		</div>
 	</div>
@@ -21,7 +34,7 @@
 	<Header />
 
 	<section class="mt-12 flex flex-col items-center gap-12 px-2">
-		<div class="flex flex-col items-center gap-3">
+		<div class="flex flex-col items-center gap-3" id="pareja">
 			<p class="text-2xl">Sara & Jan</p>
 			<blockquote class="p-2 text-center font-ooohbaby-serif text-xl">
 				"Amar no es mirarse el uno al otro; es mirar juntos en la misma dirección"
@@ -60,8 +73,9 @@
 
 	<Galeria />
 
-	<Footer />
+	<Regalos/>
 
+	<Footer />
 </main>
 
-<Audio/>
+<Audio />
