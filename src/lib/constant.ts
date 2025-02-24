@@ -38,22 +38,27 @@ export const itinerary = [
 
 export const gallery = [
     {
-        src: 'images/foto1.jpg',
+        src: 'images/foto1.avif',
+        alt: '',
+        caption: '2021'
+    },
+    {
+        src: 'images/foto2.avif',
         alt: '',
         caption: '2022'
     },
     {
-        src: 'images/foto2.jpg',
+        src: 'images/foto3.avif',
         alt: '',
         caption: '2023'
     },
     {
-        src: 'images/foto3.jpg',
+        src: 'images/foto4.avif',
         alt: '',
         caption: '2024'
     },
     {
-        src: 'images/foto4.jpg',
+        src: 'images/foto5.avif',
         alt: '',
         caption: '2025'
     }
