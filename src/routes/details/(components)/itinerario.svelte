@@ -6,7 +6,7 @@
 
 <section class="flex flex-col items-center gap-10 mt-16 text-stone-700">
 	<div class="flex gap-6 justify-center items-center">
-		<ClockIcon size=32/>
+		<ClockIcon size=32 class="animate-scale"/>
 		<h3 class="text-4xl">Itinerario</h3>
 	</div>
 	<ul class="relative flex flex-col items-center gap-4 md:gap-0">

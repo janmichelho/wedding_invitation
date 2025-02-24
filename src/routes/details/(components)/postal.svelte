@@ -32,13 +32,13 @@
 				</button>
 			{/snippet}
 		</DialogTrigger>
-		<DialogContent class="flex flex-col items-center max-w-4xl p-2 pb-4 gap-2 rounded-md">
+		<DialogContent class="flex flex-col items-center p-2 pb-4 gap-2 rounded-md">
 			<img
 				{src}
 				alt="Postal"
 				loading="lazy"
 				decoding="async"
-				class="h-auto border rounded-sm"
+				class="border rounded-sm object-cover min-h-[50vh] max-h-[80vh]"
 			/>
 			<p class="text-2xl">{caption}</p>
 		</DialogContent>
