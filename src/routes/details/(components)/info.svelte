@@ -34,7 +34,7 @@
 	const horaFin = formatTime12(end);
 </script>
 
-<section class="mb-12 mt-12 flex flex-col items-center justify-center gap-8 text-stone-700" id="evento">
+<section class="mb-12 mt-12 flex flex-col items-center justify-center gap-8 text-stone-700 px-2" id="evento">
 	<div class="flex flex-col items-center justify-center gap-4">
 		<Rings class="w-20 fill-[#a2998a]" />
 		<h3 class="text-3xl">Celebración</h3>
@@ -72,7 +72,7 @@
 		<Dress class="w-24 fill-[#a2998a]" />
 		<h3 class="text-2xl ">Código de vestimenta</h3>
 		<p class="text-lg font-medium">Semiformal</p>
-		<p>Es una celebración... sólo asegurate de venir listo para divertirte</p>
+		<p class="text-center px-2">Es una celebración... sólo asegurate de venir listo para divertirte</p>
 	</div>
 	<div class="flex flex-col items-center justify-center gap-4">
 		<h3 class="text-2xl ">Agrégalo a tu calendario</h3>

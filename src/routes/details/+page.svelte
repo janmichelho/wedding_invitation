@@ -42,7 +42,7 @@
 		</div>
 
 		<div class="flex w-11/12 flex-col gap-4 bg-[#d3cac3] p-8 text-center md:p-12 lg:p-20">
-			<h3 class="text-3xl">HISTORIA DE DOS COMETAS</h3>
+			<h3 class="text-xl md:text-3xl">HISTORIA DE DOS COMETAS</h3>
 			<p class="mb-6 italic">(cualquier semejanza con la realidad es pura coincidencia)</p>
 			<p class="mb-2">
 				En el vasto espacio de la existencia, dos viajeros solitarios surcaban sus propias órbitas,

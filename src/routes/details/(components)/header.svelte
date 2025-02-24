@@ -22,11 +22,11 @@
 		>
 	</div>
 	<nav class="hidden items-center gap-2 text-base font-semibold text-white lg:flex">
-		<a onclick={handleClick} href="#pareja" class="px-2 py-2 transition-colors hover:text-white/80">NOS CASAMOS</a>
-		<a onclick={handleClick} href="#evento" class="px-2 py-2 transition-colors hover:text-white/80">CUÁNDO Y DONDE</a>
-		<a onclick={handleClick} href="#galeria" class="px-2 py-2 transition-colors hover:text-white/80">GALERÍA</a>
-		<a onclick={handleClick} href="#regalos" class="px-2 py-2 transition-colors hover:text-white/80">REGALOS</a>
-		<a onclick={handleClick} href="#confirmacion" class="px-2 py-2 transition-colors hover:text-white/80">CONFIRMACIÓN</a>
+		<a href="#pareja" class="px-2 py-2 transition-colors hover:text-white/80">NOS CASAMOS</a>
+		<a href="#evento" class="px-2 py-2 transition-colors hover:text-white/80">CUÁNDO Y DONDE</a>
+		<a href="#galeria" class="px-2 py-2 transition-colors hover:text-white/80">GALERÍA</a>
+		<a href="#regalos" class="px-2 py-2 transition-colors hover:text-white/80">REGALOS</a>
+		<a href="#confirmacion" class="px-2 py-2 transition-colors hover:text-white/80">CONFIRMACIÓN</a>
 	</nav>
 
 	{#if open}
@@ -35,11 +35,11 @@
 			in:slide
 			out:slide
 		>
-			<a href="#pareja" class="px-2 py-2 transition-colors hover:text-white/80">NOS CASAMOS</a>
-			<a href="#evento" class="px-2 py-2 transition-colors hover:text-white/80">CUÁNDO Y DONDE</a>
-			<a href="#galeria" class="px-2 py-2 transition-colors hover:text-white/80">GALERÍA</a>
-			<a href="#regalos" class="px-2 py-2 transition-colors hover:text-white/80">REGALOS</a>
-			<a href="#confirmacion" class="px-2 py-2 transition-colors hover:text-white/80">CONFIRMACIÓN</a>
+			<a onclick={handleClick} href="#pareja" class="px-2 py-2 transition-colors hover:text-white/80">NOS CASAMOS</a>
+			<a onclick={handleClick} href="#evento" class="px-2 py-2 transition-colors hover:text-white/80">CUÁNDO Y DONDE</a>
+			<a onclick={handleClick} href="#galeria" class="px-2 py-2 transition-colors hover:text-white/80">GALERÍA</a>
+			<a onclick={handleClick} href="#regalos" class="px-2 py-2 transition-colors hover:text-white/80">REGALOS</a>
+			<a onclick={handleClick} href="#confirmacion" class="px-2 py-2 transition-colors hover:text-white/80">CONFIRMACIÓN</a>
 		</nav>
 	{/if}
 </header>

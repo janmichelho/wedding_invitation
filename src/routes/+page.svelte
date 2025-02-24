@@ -8,7 +8,7 @@
 		<img src="/images/mw-env-top-layer.avif" class="absolute top-0 z-20 opacity-50" alt="" transition:fly={{duration: 1000, y: -100 }}/>
 		<img
 			src="/images/mw-env-middle-layer.avif"
-			class="absolute z-0 h-full w-full opacity-50"
+			class="absolute z-0 h-full w-full opacity-50 hidden lg:block"
 			alt=""
 			out:fade={{duration: 150}}
 		/>
